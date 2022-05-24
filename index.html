@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Formulaire de contact</title>
+    </head>
+    <body>
+        <div class="form">
+            <div class="heading">
+                <h2>Contact</h2>
+                <hr>
+            </div>
+            <div class="string-input">
+                <div class="area">
+                    <label for="name">Nom*</label>
+                    <input type="text" name="nom" id="name" placeholder="Votre nom" />
+                </div>
+                <div class="area">
+                    <label for="objet">Objet*</label>
+                    <input type="text" name="subject" id="sujet" placeholder="Objet" />
+                </div>
+                <div class="area">
+                    <label for="mail">Adrèsse email*</label>
+                    <input type="email" name="mail" id="email" placeholder="Votre adrèsse email" />
+                </div>
+                <div class="area">
+                    <label for="name">Méssage*</label>
+                    <input type="text" name="msg" id="msg" placeholder="Votre méssage..." />
+                </div>
+                <div class="area">
+                    <p>
+                        (*) Tous ces champs sont obligatoires.
+                    </p>
+                </div>
+                <div class="validation-button">
+                    <button type="submit">Envoyer</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

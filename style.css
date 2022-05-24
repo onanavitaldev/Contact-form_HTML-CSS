@@ -1,0 +1,99 @@
+*
+{
+    font-family: Century Gothic;
+}
+*::selection
+{
+    background-color: #0633a4;
+    color: #fff;
+}
+body
+{
+    background-color: #0633a4;
+    display: flex;
+    justify-content: center;
+}
+.form
+{
+    background-color: #fff;
+    height: 90vh;
+    border-radius: 2.5px;
+    width: 45%;
+    padding: 1.5em;
+    text-align: left;
+}
+.form .heading h2
+{
+    color: #040917;
+    font-size: 2.2em;
+}
+.form .heading hr
+{
+    background-color: #0633a4;
+    height: 4px;
+    width: 50px;
+    position: relative;
+    left: 0;
+    top: -35px;
+    border-radius: 50px;
+    float: left;
+}
+.form .string-input
+{
+    margin-top: 4em;
+}
+.form .string-input .area
+{
+    margin: 15px;
+}
+.form .string-input .area label
+{
+    margin-bottom: 2em;
+}
+.form .string-input .area input
+{
+    width: 95%;
+    padding: 1em;
+    outline: none;
+    border: 0.8px solid #ddd;
+}
+.form .string-input .area input:focus
+{
+    border: 0.8px solid #040917;
+    outline: none;
+}
+.form .string-input .area #msg
+{
+    padding-bottom: 8em;
+}
+.form .string-input .validation-button button
+{
+    background-color: #040917;
+    text-transform: uppercase;
+    border-radius: 3px;
+    width: 20%;
+    padding: 1em;
+    margin-left: 15px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease-in 0s;
+}
+.form .string-input .validation-button button:hover
+{
+    background-color: #0633a4;
+}
+
+/* ########## Responsive ############# */
+@media screen and (max-width: 1000px) {
+    .form
+    {
+        width: 40%;
+    }
+}
+@media screen and (max-width: 620px) {
+    .form
+    {
+        width: 100%;
+    }
+}
